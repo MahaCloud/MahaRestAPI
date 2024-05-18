@@ -34,5 +34,6 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
+		<finalName>restapi-github-actions</finalName>
 	</build>
 </project>
