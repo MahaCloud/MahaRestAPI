@@ -39,7 +39,7 @@ jobs:
     - name: Build & push Docker image
       uses: mr-smithers-excellent/docker-build-push@v6
       with:
-	     image: 'mahadevkb/restapi-github-actions'
+	     image: mahadevkb/restapi-github-actions
 	     tags: latest
 	     registry: docker.io
 	     dockerfile: Dockerfile # No need of .ci
