@@ -13,6 +13,8 @@ public class HelloWorldController {
 	
 	@GetMapping("/restapi/hello-world")
 	public String helloWorld() {
+		System.out.println("----------Inside Hello World debug1-------");
+		System.out.println("----------Inside Hello World debug2-------");
 		return "Hello World, welcome to 1st rest API";
 	}
 }
