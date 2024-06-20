@@ -1,1 +1,1 @@
-java -Xdebug -Xrunjdwp:transport=dr_socket,server=y,address=8000,suspend=n -jar restapi-github-actions.jar
+java -Xdebug -Xrunjdwp:transport=dt_socket,server=y,address=8000,suspend=n -jar restapi-github-actions.jar
