@@ -1,1 +1,1 @@
-java -Xdebug -Xrunjdwp:transport=dr_socket,server=y,address=8000,suspend=n -jar springboot-wsapi.jar
+java -Xdebug -Xrunjdwp:transport=dr_socket,server=y,address=8000,suspend=n -jar restapi-github-actions.jar
